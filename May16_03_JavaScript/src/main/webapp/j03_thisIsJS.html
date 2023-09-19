@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript" src="myJS.js"></script>
+<script type="text/javascript">
+	// JavaScript : HTML에 이벤트쪽 서포트
+	
+	// callback함수 :어떤 이벤트에 연결되어있어서,
+	// 그 이벤트가 발생하면 자동호출되는 함수
+	
+	// 1) 함수 정의
+	function printHahaha() {
+		alert("ㅎㅎㅎ");
+	}
+	function printKakaka() {
+		for (var i = 0; i < 2; i++) {
+			alert("ㅋ");
+		}
+	}
+</script>
+</head>
+<body>
+	<!-- 2) 함수를 DOM객체의 이벤트에 연결 -->
+	<button onclick="printHahaha();">ㅎ출력</button>
+	<button onclick="printKakaka();">ㅋ출력</button>
+	<h1 ondblclick="printKakaka();">ㅋ출력</h1>
+	<h2 onmouseenter="print123();">123출력</h2>
+</body>
+</html>

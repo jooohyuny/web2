@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	html vs Servlet
+		그 페이지에 프로그래밍언어(Java)쪽 기능이 필요하면 Servlet
+		아니면 html로 하는게 편하겠
+	<hr>
+	<!-- 
+		페이지 이동 - x
+		파일 열기 - x
+		GET방식 요청
+	 -->
+	<!-- 
+		TomcatWAS 체제하의 같은프로젝트 상대주소
+	 --> 
+	<a href="Calculator?a=10&b=2">10,2계산하기</a>
+	<hr>
+	<a href="Gugudan?dan=2">2단보기</a>		
+	<a href="Gugudan?dan=3">3단보기</a>		
+	<hr>
+	<!-- 
+		<form> + <button>
+		form속의 button누르면 
+		form의 action자리에 있는 쪽으로 GET방식 요청
+		input의 name들을 parameter명, 값들을 값
+		.../AAA?BBB=1213&CCC=23123
+	 -->
+	<form action="Gugudan">
+		단 : <input name="dan"><br>
+		<button>보기</button>
+	</form>
+ 	<hr>
+	<form action="Calculator">
+		a:<input name="a"><br>
+		b:<input name="b"><br>
+		<button>계산</button>
+	</form>
+	
+</body>
+</html>

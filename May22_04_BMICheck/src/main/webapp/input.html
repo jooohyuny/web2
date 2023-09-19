@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="CSS/input.css">
+<script type="text/javascript" src="JS/yunValidChecker.js"></script>
+<script type="text/javascript" src="JS/bmiCheck.js"></script>
+</head>
+<body>
+	<form action="HomeController" name="bmiForm" method="post"
+		enctype="multipart/form-data"
+		onsubmit="return bcCheck();">
+		<table>
+			<tr class="title">
+				<th colspan="2">비만도 검사</th>
+			</tr>
+			<tr>
+				<td align="center"><input name="n" placeholder="이름"
+					autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td align="center"><input name="h" placeholder="키"></td>
+			</tr>
+			<tr>
+				<td align="center"><input name="w" placeholder="몸무게"></td>
+			</tr>
+			<tr>
+				<td align="center"><input name="p" type="file"></td>
+			</tr>
+			<tr>
+				<td align="center">
+					<button class="btnType">결과보기</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

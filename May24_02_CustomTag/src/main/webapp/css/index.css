@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+@font-face{
+	font-family: "vitro";
+	src : url("vitrocore.ttf");
+}
+@font-face{
+	font-family: "pil";
+	src : url("pils.ttf");
+}
+@font-face{
+	font-family: "mayo";
+	src : url("dmayo.ttf");
+}
+
+#site {
+	margin-left :auto;
+	margin-right :auto;
+	width: 1200px;
+	border-spacing:0px;
+	color: blue;
+	border-color: red solid 4px;
+}
+#siteTitle{
+	font-family:mayo;
+	height:90px;
+	font-size:25pt;
+	background-color: #42A5F5;
+	color: white;
+	font-weight: 900;
+	padding-left: 20px;
+	border-color: #F44336;
+}
+#siteMenu{
+	height: 40px;
+	background-color: #26A69A;
+}
+#siteCountry{
+	border-top: #6D4C41 solid 4px;
+	border-bottom: #6D4C41 solid 4px;
+	border-left: #3E2723 double 3px;
+	border-right: #3E2723 double 3px;
+	background-color: #FFD180;
+	padding: 15px;
+}

@@ -1,0 +1,76 @@
+@charset "EUC-KR";
+
+#bbsArea{
+	width: 200%;
+}
+#bbsWriteTbl{
+	width: 100%;
+	background-color: #E0F7FA;
+	box-shadow: 3px 3px 3px #00ACC1;
+}
+
+#bbsWriteTbl td{
+	padding : 10px;
+}
+#bbsWriteTbl input{
+	width: 90%; height: 40px;
+	border: #00ACC1 solid 3px;
+	font-size : 14pt; outline-style: groove;
+	padding: 4px;
+}
+#bbsWriteTbl textarea{
+	resize: none;	width: 90%; height: 240px;
+	border: #00ACC1 solid 3px;
+	font-size : 14pt; outline-style: groove;
+	padding: 4px;
+	
+}
+#bbsWriteTbl button{
+	border: dashed; background-color: transparent;
+	color: #00ACC1; font-size: 20pt;
+}
+#bbs{
+	width: 90%; background-color: #00ACC1;
+	color: white; font-size: 14pt;
+	box-shadow: 2px 2px 2px black;
+	margin: auto;
+}
+#bbs.td1{
+	width: 70px; height: 40px;
+}
+#bbs.td2{
+	width: 730px;
+}
+#bbs.dataTr{
+	background-color: red; cursor:pointer;
+	color: blue; height: 35px;
+}
+#bbs.dataTr:hover{
+	background-color: #B2EBF2;
+}
+#bbsDetailTbl{
+	width: 60%; background-color: #E0F7FA;
+	box-shadow: 3px 3px 3px #00ACC1;
+}
+#bbsDetailTbl td{
+	padding: 10px;
+}
+#bbsDetailTbl input{
+	height: 35px; border: #00ACC1 solid 3px;
+	font-size: 14pt; outline: none;
+}
+#bbsDetailTbl.no{
+	width: 30px; text-align: center;	
+}
+#bbsDetailTbl.title{
+	width:660px;
+}
+#bbsDetailTbl textarea{
+	resize: none; width:90%;
+	height: 240px;	border: #00ACC1 solid 3px;
+	outline: none; font-size: 14pt;
+}
+#bbsDetailTbl button{
+	border: none; background-color: transparent;
+	color: #00ACC1;
+}

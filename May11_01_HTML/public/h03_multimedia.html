@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		경로
+			절대경로 : 서울특별시 종로구 종로12길 15, 5층 교육지원부 사무실
+			상대경로 : 지금 903호에서 4층 내려가서 데스크 뒤에 있는 거기
+			 => 상대경로라는건 지금 html기준으로 쓰는거
+			 
+			 Windows : 경로에 대소문자 구별x, 구분자로 \
+			 Linux : 경로에 대소문자 구별, 구분자로 /
+			 
+			지금은 개발자PC(Windows0에서 개발중
+			개발 끝나면 서버(Linux)에 갖다놔서 실행
+			=> 절대경로 실전에서는 못쓴다고 봐야
+	 
+	 		상대경로를 쓸 때
+	 		. : 현재폴더
+	 		.. : 한단계상위
+	 		
+	 		크기조절
+	 			1) 안해야지
+	 			2) 어쩔수 없다면 : CSS에서
+	 		크기
+	 			50 : 50px
+	 			50px : 50px
+				?% : 한 단계 상위객체의 ?%
+				가로든 세로든 둘 중에 하나만 조절하면
+				나머지 하나는 원본 비율에 맞춰서 자동 조절됨
+				=> 하나만 조절하는 쪽으로
+	 -->
+	 
+	<img width=""alt="못찾으면" src="C:\yun\Web\May11_01_HTML\public\KakaoTalk_20230509_224829945.jpg">
+	<img width="100px"alt="" src="img/스크린샷 2023-05-11 110508.png">
+	<img width="100px"alt="못찾으면" src="KakaoTalk_20230509_224829945.jpg">
+	<img width="100px"alt="" src="../KakaoTalk_20230511_110525538.jpg">
+	<hr>
+	<!--  그림말고 나머지는 -->
+	<embed src="2021핵심요약_컴활2급.pdf">
+	<hr>
+	
+	<!-- html5의 신기능 -->
+	<video src="20221016_205500.mp4"controls="controls"></video>
+	<audio src="20221016_205500.mp4"controls="controls"></audio>
+</body>
+</html>

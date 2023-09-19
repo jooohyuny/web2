@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="kwonPool"
+		type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		username="kwon"
+		password="1"
+		url="jdbc:oracle:thin:@195.168.9.43:1521:xe"
+		maxTotal="500"
+		maxIdle="100"
+	/>
+</Context>
+

@@ -1,0 +1,8 @@
+@charset "EUC-KR";
+.calcInput{
+	border: #004D40 solid 2px;
+}
+.calcBtn{
+	background-color: #004D40;
+	color: white;
+}

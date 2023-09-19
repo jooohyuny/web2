@@ -1,0 +1,41 @@
+@charset "EUC-KR";
+#nbbTitle {
+	background-color: #4CAF50;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	border-spacing: 0px;
+}
+#nbbName{
+	font-size: 20pt;
+	height: 60px;
+}
+#nbbTd{
+	padding :15px;
+	background: #A5D6A7;
+}
+#number {
+	width: 200px;
+	height: 40px;
+	margin: 10px;
+	border: white solid 4px;
+	background-color: transparent;
+	color: white;
+}
+#nbbBtn {
+	border: #4CAF50 solid 2px;
+	font-size: 17pt;
+	font-weight: 900;
+	color: 1976D2;
+	background-color: transparent;
+	
+}
+#resultTd{
+	border :orange solid 4px;
+	text-shadow: 1px 1px 1px black;	
+	background-color: #ad5a5a;
+	padding: 30px;
+	font-size: 13pt;
+}
+	

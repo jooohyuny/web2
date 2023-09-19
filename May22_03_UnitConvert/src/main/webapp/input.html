@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript" src="JS/yunValidChecker.js"></script>
+</head>
+<body>
+	<form name="ucForm" action="HomeController" onsubmit="return check();">
+		<table>
+			<tr class="title">
+				<th colspan="2">단위변환</th>
+			</tr>
+
+			<tr>
+				<td align="center" class="td1">변환할 값 <input name="transNum"
+					placeholder="숫자" autofocus="autofocus">
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td1" align="center">단위 <select name="what">
+						<option value="len">cm -> inch</option>
+						<option value="size">㎥-> 평</option>
+						<option value="temp">°C -> °F</option>
+						<option value="spd">km/h -> mi/h</option>
+				</select></td>
+			</tr>
+
+			<tr>
+				<td align="center">
+					<button class="btnType">변환</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

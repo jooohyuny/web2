@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+
+
+
+@font-face{
+	font-family: "pil";
+	src : url("pils.ttf");
+}
+@font-face{
+	font-family: "vitro";
+	src : url("vitrocore.ttf");
+}
+
+form {
+	background-color:#DCEDC8;
+	width: 500px;
+	box-shadow: 3px 3px 3px brown;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0px;
+	border:navy solid 4px;
+}
+
+.td1{
+	font-family: pil;	
+	border: #304FFE solid 3px;
+	text-align: center;
+	outline: olive;
+	background-color: silver;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.td1:hover{
+	background-color: lime;
+}
+
+
+
+.btnType{
+	border: aqua groove 6px;
+	background-color: yellow;
+	margin:30px;
+	font-size: 14px;
+	color: aqua;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

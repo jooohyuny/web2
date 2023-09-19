@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="May23_02_RandomGame">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <property name="java-output-path" value="/May23_02_RandomGame/build/classes"/>
+        <property name="context-root" value="May23_02_RandomGame"/>
+            
+    </wb-module>
+    
+</project-modules>

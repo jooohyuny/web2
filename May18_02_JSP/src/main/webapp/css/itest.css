@@ -1,0 +1,64 @@
+@charset "EUC-KR";
+
+@font-face{
+	font-family: "pil";
+	src : url("pils.ttf");
+}
+@font-face{
+	font-family: "vitro";
+	src : url("vitrocore.ttf");
+}
+@font-face{
+	font-family: "mayo";
+	src : url("dmayo.ttf");
+}
+
+body{
+	font-family: dmayo;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border:#6D4C41 solid 2px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+input, select, button{
+	width: 90%;
+	height: 30px;
+	outline: none;
+}
+
+
+.title{
+	background-color: white;
+}
+
+
+
+.td1{
+	font-family: vitro;
+}
+
+.select{
+	border:  #4E342E solid 2px;
+}
+.btnType{
+	border:  #4E342E solid 2px;
+	
+}
+
+#len{
+	color : red;
+}
+#size{
+	color : yellow;
+}
+#temp{
+	color : blue;
+}
+#spd{
+	color : orange;
+}

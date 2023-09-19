@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+table{
+	background-color: #1976D2;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	border-spacing: 0px;
+	color : white;
+}
+
+th{
+	font-size: 20pt;
+	height:50px;
+}
+.subTitle{
+	background-color: #FFA726;
+	color:black;
+}
+img{
+	width:130px;
+	height:130px;
+}
+.line{
+	background-color: #FFE0B2; height: 3px;
+}
+.result{
+	background-color:#EF6C00;
+	font-size: 16pt;
+}
+	

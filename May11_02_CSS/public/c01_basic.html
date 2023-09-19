@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+	div {
+		/* CSS 주석 */
+		color: #43A047;
+	}
+	#zxc {
+		font-size: 80pt;
+	}
+	.asd {
+		background-color: yellow;
+	}
+	div,h1 {
+		text-decoration: underline;
+	}
+	div h1{
+		color: red;
+	}
+	h1.asd {
+		text-shadow: 3px 5px 10px blue;
+	}
+	.qwe.asd {
+		box-shadow: -3px -2px 5px red;
+	}
+	h2:hover {
+		color:blue;
+	}	
+	h2:active {
+		font-size: 50pt;
+	}
+</style>
+<link rel="stylesheet" href="c01.css">
+</head>
+<body>
+	<!-- 
+		CSS(Cascading Style Sheet)
+			DOM객체에 디자인 부여
+			위치
+				.html의 head부분에
+				DOM객체 자체에
+				따로 .css파일
+			문법
+				selector {
+					속성명 : 값;
+					속성명 : 값;
+					...
+				}
+				...
+			CSS selector
+				기본형
+					태그명 : 태그명이 그거인것들 다
+					#id값 : id가 그거인거 -> 중복이 절대 안됨 
+					.class값 : class가 그거인것들 -> 중복으로 사용가능
+				조합형
+					기본형,기본형, ... : 여러개 선택
+					기본형 기본형  ... : 내부 선택
+					기본형.class값
+				상태형
+					기본형:상태	
+					
+	 -->
+	 <h2 style="color: red;">ㅎㅇ</h2>
+	 <div id="zxc">ㅋㅋㅋ</div>
+	 <div class="asd qwe">ㅎㅎㅎ</div>
+	 <h1 class="asd">ㅋㅋㅋ</h1>
+	 <div>
+	 	<h1>ㅠㅠ</h1>
+	 </div>
+	 
+</body>
+</html>

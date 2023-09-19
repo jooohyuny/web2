@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="input.css">
+<script type="text/javascript" src="yunValidChecker.js"></script>
+<script type="text/javascript" src="may162restart.js"></script>
+</head>
+<body>
+	<form name = "f" action="Output" method="post"
+	enctype="multipart/form-data"
+	onsubmit="return check();">
+		이름 : <input class="td1" name="name" 
+				maxlength="10" autofocus="autofocus"><br> 
+		나이 : <input class="td1" name="age" maxlength="3"><br>
+		사진 : <input name="photo"type="file"><br>
+		<button class="btnType">입장</button>
+	</form>
+</body>
+</html>
